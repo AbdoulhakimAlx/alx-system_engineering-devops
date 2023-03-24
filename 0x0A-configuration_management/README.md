@@ -8,9 +8,11 @@ CI/CD
 ```
 ## 1. RUBY ERROR : /usr/lib/ruby/vendor_ruby/puppet/util.rb:461: warning: URI.escape is obsolete
 
-##Solution : Execute 
+## Solution : Execute 
 
-``` export RUBYOPT='-W0' 
+```
+ export RUBYOPT='-W0' 
+
 ```
 In the Terminal
 
